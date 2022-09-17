@@ -1,0 +1,125 @@
+
+
+body{
+  background-image: url("images/background.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  font-family: 'Comic Neue', cursive;
+}
+
+.search{
+  display: flex;
+  opacity: 0.3;
+}
+.user-value{
+  border: solid;
+  border-right: none;
+  font-size: 1rem;
+}
+
+.new-button{
+  height: 1rem;
+}
+
+.button{
+border-style: none;
+border: solid;
+border-left: none;
+}
+
+.today-weather{
+  text-align: center;
+  color: #EEE3CB;
+  margin-top: 7rem;
+}
+
+.temp{
+  display: flex;
+  justify-content: center;
+}
+
+.unit-button{
+  font-size: 3rem;
+  font-family: 'Comic Neue', cursive;
+  background: none;
+  border: none;
+  margin-top: 2rem;
+  padding: 0;
+  color: #EEE3CB;
+  border-style: solid;
+  border-color: #B7C4CF;
+}
+
+.unit-button:hover{
+  opacity: 0.3;
+}
+.location{
+  font-size: 3rem;
+  margin-bottom: 0;
+  position: relative;
+  top: 1rem;
+}
+
+.temperature{
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.icon{
+  position: relative;
+  bottom: 0.25rem;
+  height: 10rem;
+}
+
+.description{
+  position: relative;
+  bottom: 2.3rem;
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.today-details{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 20%;
+  opacity: 0.5;
+}
+
+.detail{
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 10%;
+  height: 10rem;
+  width:10rem;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+.pressure{
+  margin-left: 10%;
+}
+.wind-speed{
+  margin-right: 10%;
+}
+
+.detail-img{
+  height: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.credit{
+  margin-top: 1.5rem;
+  text-align: center;
+  color: grey;
+}
+.footer{
+  display: flex;
+  font-size: 0.5rem;
+  opacity: 0.6;
+}
