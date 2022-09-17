@@ -3,7 +3,9 @@
 HTML, CSS, JavaScript
 
 Description: Designed and developed a weather application that searches and displays current weather statistics such as temperature, weather icon with description, pressure, humidity, and wind speed from OpenWeatherMap API based on provided city name
+
 • Used CSS Flexbox to design the front-end of the application
+
 • Implemented a toggle feature to display both imperial and metric statistics
 
 Credits:
