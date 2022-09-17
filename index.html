@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Karthika's Weather Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="search">
+      <input type="search" class="user-value" placeholder="Search by city name...">
+      <button type="submit" name="button" class="button"><img class=new-button src="images/search.png"/> </button>
+    </div>
+
+    <div class="today-weather">
+      <p class="location"></p>
+      <div class="temp">
+        <h1 class= "temperature"></h1>
+        <button class= unit-button type="button" name="unit button"><b>°F</b></button>
+      </div>
+
+      <img class= icon src="" alt="">
+      <p class=description></p>
+    </div>
+
+    <div class="today-details">
+      <div class="detail pressure">
+        <img class=detail-img src="images/gauge.png" alt="pressure img">
+        <p class="pressure-value"></p>
+      </div>
+      <div class="detail humidity">
+        <img class=detail-img src="images/humidity.png" alt="humidity img">
+        <p class=humidity-value></p>
+      </div>
+      <div class="detail wind-speed">
+        <img class=detail-img src="images/wind.png" alt="wind img">
+        <p class=wind-value></p>
+      </div>
+   </div>
+
+   <p class=credit>@KarthikaKrishnan </p>
+
+   <div class="footer">
+     <a href="https://www.pexels.com/photo/white-and-black-mountain-wallpaper-933054/">Background image created by Joyston Judah</a>
+     <a href="https://www.flaticon.com/free-icons/cloudy" title="cloudy icons">Cloudy icons created by kosonicon - Flaticon</a>
+     <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Kiranshastry - Flaticon</a>
+     <a href="https://www.flaticon.com/free-icons/wind" title="wind icons">Wind icons created by Vitaly Gorbachev - Flaticon</a>
+     <a href="https://www.flaticon.com/free-icons/humidity" title="humidity icons">Humidity icons created by Freepik - Flaticon</a>
+     <a href="https://www.flaticon.com/free-icons/meter" title="meter icons">Meter icons created by Cursor Creative - Flaticon</a>
+   </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
