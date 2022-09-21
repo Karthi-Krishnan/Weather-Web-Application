@@ -1,5 +1,7 @@
 # WeatherWebApp
 
+Link to Website: https://karthi-krishnan.github.io/Weather-Web-Application/
+
 HTML, CSS, JavaScript
 
 Description: Designed and developed a weather application that searches and displays current weather statistics such as temperature, weather icon with description, pressure, humidity, and wind speed from OpenWeatherMap API based on provided city name. Implemented a toggle feature located on the temperature degree sybmbol to allow users to view both imperial and metric units of displayed data.
