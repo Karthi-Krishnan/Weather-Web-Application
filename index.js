@@ -27,7 +27,7 @@ document.querySelector(".unit-button").addEventListener("click",function(){
 function getWeather(city,unit){
   //API Information
   fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=e80d8bf389889fc0ca1f59c5b010a654&units="+unit)
-    .then(reponse => reponse.json())
+    .then(response => response.json())
     .then(weatherData => {
       let location = weatherData.name;
       let temperature = weatherData.main.temp;
